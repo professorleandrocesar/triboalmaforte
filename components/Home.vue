@@ -25,8 +25,6 @@
         <p>
           #krav-maga 
         </p>
-      </div>
-      <div class='mainTwo'>
         <p>
           #yoga 
         </p>
@@ -40,20 +38,20 @@
           #nutrição
         </p>
       </div>
+    
+  </div>
       <div class='mainTree'>
-        <p>
-        <nuxt-link to="/">triboalmaforte.com</nuxt-link>
-          
-        </p>
         <p>
         <!-- <a href="https://www.instagram.com/explore/tags/triboalmaforte/">#triboalmaforte</a>-->
         #triboalmaforte
           
         </p>
+        <p>
+        <nuxt-link to="/">triboalmaforte.com</nuxt-link>
+          
+        </p>
         
       </div>
-    
-  </div>
 
 </div>
 </template>

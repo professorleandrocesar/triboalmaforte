@@ -42,15 +42,29 @@ body {
         margin-top: 20px;
     }
 
-    .mainTree {
-        color: #331400;
+    .mainTwo p {
+        display: inline;
+        cursor: pointer;
+        border: solid 2px #ffffff90;
+        text-shadow: #fff 1.5px 1px;
+        padding: 10px 10px;
+        transition: all .5s;
+    }
+
+    .mainTwo p:hover {
+        display: inline;
+        margin: 10px 2px;
+        cursor: pointer;
+        color: #c07b4f;
+        border: solid 2px #c07b4f80;
+        padding: 10px 10px;
     }
     
     @media only screen and (min-width: 140px) {
     .main h1 {
         margin-top: -60px;
-        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #33140050, 1px 1px 1px #33140050,
-         -.5px -3px 30px #33140050, .5px -3px 30px #33140050, 5px 3px 30px #33140050, 5px 3px 30px #33140050;
+        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #55555580, 1px 1px 1px #55555580,
+         -.5px -3px 30px #55555580, .5px -3px 30px #55555580, 5px 3px 30px #55555580, 5px 3px 30px #55555580;
     }
     
     .main {
@@ -109,9 +123,9 @@ body {
         
     }
     
-    .mainTree p {
+    .mainTree {
         font-size: .8em;       
-        margin: 15px 20px;
+        margin: 35px 20px;
         font-family: 'Kalam', cursive;
         cursor: pointer;
 }
@@ -119,8 +133,8 @@ body {
     @media only screen and (min-width: 200px) {
     .main h1 {
         margin-top: -60px;
-        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #33140050, 1px 1px 1px #33140050,
-         -.5px -3px 30px #33140050, .5px -3px 30px #33140050, 5px 3px 30px #33140050, 5px 3px 30px #33140050;
+        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #55555580, 1px 1px 1px #55555580,
+         -.5px -3px 30px #55555580, .5px -3px 30px #55555580, 5px 3px 30px #55555580, 5px 3px 30px #55555580;
     }
     
     .main {
@@ -141,8 +155,8 @@ body {
     
     .mainTwo:nth-child(2) {
         font-family: 'Philosopher', sans-serif;
-        font-size: .7em;
-        margin: 70px 10px 0 10px;
+        font-size: .8em;
+        margin: 60px 10px 0 10px;
     }
 
             
@@ -152,7 +166,7 @@ body {
         justify-content: space-around;
         flex-wrap: wrap;
         flex-direction: row;
-        font-size: .9em;
+        font-size: .8em;
         margin: -40px 10px;
     }
 
@@ -189,8 +203,8 @@ body {
     @media only screen and (min-width: 300px) {
     .main h1 {
         margin-top: -60px;
-        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #33140050, 1px 1px 1px #33140050,
-         -.5px -3px 30px #33140050, .5px -3px 30px #33140050, 5px 3px 30px #33140050, 5px 3px 30px #33140050;
+        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #55555580, 1px 1px 1px #55555580,
+         -.5px -3px 30px #55555580, .5px -3px 30px #55555580, 5px 3px 30px #55555580, 5px 3px 30px #55555580;
     }
     
     .main {
@@ -259,8 +273,8 @@ body {
     @media only screen and (min-width: 360px) {
     .main h1 {
         margin-top: -60px;
-        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #33140050, 1px 1px 1px #33140050,
-         -.5px -3px 30px #33140050, .5px -3px 30px #33140050, 5px 3px 30px #33140050, 5px 3px 30px #33140050;
+        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #55555580, 1px 1px 1px #55555580,
+         -.5px -3px 30px #55555580, .5px -3px 30px #55555580, 5px 3px 30px #55555580, 5px 3px 30px #55555580;
     }
     
     .main {
@@ -321,7 +335,7 @@ body {
     
     .mainTree p {
         font-size: 1em;
-    margin: -20px 20px;
+    margin: 60px 20px 0 20PX;
     font-family: 'Kalam', cursive;
     cursor: pointer;
 }
@@ -329,8 +343,8 @@ body {
     @media only screen and (min-width: 415px) {
     .main h1 {
         margin-top: -60px;
-        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #33140050, 1px 1px 1px #33140050,
-         -.5px -3px 30px #33140050, .5px -3px 30px #33140050, 5px 3px 30px #33140050, 5px 3px 30px #33140050;
+        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #55555580, 1px 1px 1px #55555580,
+         -.5px -3px 30px #55555580, .5px -3px 30px #55555580, 5px 3px 30px #55555580, 5px 3px 30px #55555580;
     }
     
     .main {
@@ -352,8 +366,8 @@ body {
     .mainTwo:nth-child(2) {
         font-family: 'Philosopher', sans-serif;
         
-        font-size: 1.5em;
-        margin: 80px 30px;
+        font-size: 1.3em;
+        margin: 60px 30px;
     }
 
 
@@ -365,19 +379,10 @@ body {
         justify-content: space-around;
         flex-wrap: wrap;
         flex-direction: row;
-        font-size: 1em;
+        font-size: .8em;
         margin: -100px 30px;
     }
 
-    .mainTwo:nth-child(4) {
-        font-family: 'Philosopher', sans-serif;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        flex-direction: row;
-        font-size: 1em;
-        margin: 100px 30px;
-    }
     .mainTree {
         display: flex;
             justify-content: space-around;
@@ -393,8 +398,8 @@ body {
     }
     
     .mainTree p {
-        font-size: 1em;
-    margin: -30px 20px;
+        font-size: 1.2em;
+    margin: 80px 20px 0 20PX;
     font-family: 'Kalam', cursive;
     cursor: pointer;
 }
@@ -407,8 +412,8 @@ body {
             }
     .main h1 {
         margin-top: -60px;
-        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #33140050, 1px 1px 1px #33140050,
-         -.5px -3px 30px #33140050, .5px -3px 30px #33140050, 5px 3px 30px #33140050, 5px 3px 30px #33140050;
+        text-shadow: -1px -1px 1px black, 1px -1px 1px black,1px 1px 1px #55555580, 1px 1px 1px #55555580,
+         -.5px -3px 30px #55555580, .5px -3px 30px #55555580, 5px 3px 30px #55555580, 5px 3px 30px #55555580;
     }
     
     .main {
@@ -438,12 +443,10 @@ body {
     .mainTwo:nth-child(2) {
         font-family: 'Philosopher', sans-serif;
         
-        font-size: 1.6em;
-        margin: 80px 30px;
+        font-size: 1.4em;
+        margin: 60px 30px;
     }
 
-
-            
             
             .mainTwo:nth-child(3) {
                 font-family: 'Philosopher', sans-serif;
@@ -451,7 +454,7 @@ body {
         justify-content: space-evenly;
         flex-wrap: wrap;
         flex-direction: row;
-        font-size: 1.1em;
+        font-size: .9em;
         margin: -90px 30px;
     }
 
@@ -479,7 +482,7 @@ body {
     }
     
     .mainTree p {
-    margin: -45px 20px;
+    margin: 85px 20px 0 20PX;
     font-family: 'Kalam', cursive;
     cursor: pointer;
 }
