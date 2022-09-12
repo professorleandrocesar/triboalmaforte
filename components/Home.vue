@@ -1,55 +1,68 @@
 <template>
 <div>    
-  <div class="main mainOne">
-      <div class='mainTwo'>
+  <div class='mainHomeOne'>
       <img src='img/logo.svg'>
-      <!--
-      <video autoplay muted loop id="myVideo">
-      -->
-  <source src="img/video.mp4" type="video/mp4">
-</video>
-      </div>
-      <div class='mainTwo'>
       <h1>Tribo Alma Forte</h1>
-      </div>
-      <div class='mainTwo'>
-        <p>
-          #acupuntura 
-        </p>
-        <p>
-          #personal 
-        </p>
-        <p>
-          #funcional 
-        </p>
-        <p>
-          #krav-maga 
-        </p>
-        <p>
-          #yoga 
-        </p>
-        <p>
-          #filosofia 
-        </p>
-        <p>
-          #psicologia 
-        </p>
-        <p>
-          #nutrição
-        </p>
+      <!--
+        <source src="img/video.mp4" type="video/mp4">
+        </video>
+      -->
+  </div>
+      <div class='mainHomeTwo'>
+        <nuxt-link to="/acupuntura">
+          
+            #acupuntura 
+          
+        </nuxt-link>
+        <nuxt-link to="/acupuntura">
+          
+            #personal 
+          
+        </nuxt-link>
+        <nuxt-link to="/acupuntura">
+          
+           #funcional 
+          
+        </nuxt-link>
+        <nuxt-link to="/acupuntura">
+          
+            #krav-maga 
+          
+        </nuxt-link>
+        <nuxt-link to="/acupuntura">
+          
+           #yoga 
+          
+        </nuxt-link>
+        <nuxt-link to="/acupuntura">
+          
+            #filosofia 
+          
+        </nuxt-link>
+        <nuxt-link to="/acupuntura">
+          
+            #psicologia 
+          
+        </nuxt-link>
+        <nuxt-link to="/acupuntura">
+          
+            #nutrição
+          
+        </nuxt-link>
       </div>
     
-  </div>
       <div class='mainTree'>
-        <p>
-        <!-- <a href="https://www.instagram.com/explore/tags/triboalmaforte/">#triboalmaforte</a>-->
+        
+        <a href="https://www.instagram.com/explore/tags/triboalmaforte/" target='_blank'>
         #triboalmaforte
+        </a>
           
-        </p>
-        <p>
-        <nuxt-link to="/">triboalmaforte.com</nuxt-link>
+        
+        <nuxt-link to="/">
+        triboalmaforte.com
+        </nuxt-link>
           
-        </p>
+    
         
       </div>
 

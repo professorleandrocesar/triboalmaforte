@@ -1,11 +1,51 @@
 <template>
 <div>    
-  <div class="nav">
-  <nuxt-link to="#">
-    <i class="fa-solid fa-bars"></i>
+  <div class='mainSecondOne'>
+  <nuxt-link to="/">
+      <img src='img/logo.svg'>
+      <h1>Tribo Alma Forte</h1>
+      <!--
+        <source src="img/video.mp4" type="video/mp4">
+        </video>
+      -->
   </nuxt-link>
-     
   </div>
+      <div class='mainSecondTwo'>
+        <h1>Acupuntura</h1>
+        <p> 
+          Acupuntura é uma forma de medicina alternativa e um ramo da medicina tradicional
+          chinesa no qual finas agulhas são inseridas no corpo do paciente.
+         </p>
+      </div>
+      <div class='mainSecondTree'>
+         <h3>
+          Parceiros da Tribo
+         </h3>
+      </div>
+      <div class='mainSecondFour'>
+        <h4>
+          Deep Acupuntura
+        </h4>
+        <a href='https://www.deepacupuntura.com' target='_blank'>
+          deepacupuntura.com
+        </a>
+      </div>
+    
+      <div class='mainTree'>
+        <p>
+        <a href="https://www.instagram.com/explore/tags/triboalmaforte/" target='_blank'>
+          #triboalmaforte
+        </a>
+          
+        </p>
+        <p>
+        <nuxt-link to="/">
+          triboalmaforte.com
+        </nuxt-link>
+          
+        </p>
+        
+      </div>
 
 </div>
 </template>
