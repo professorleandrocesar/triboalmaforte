@@ -6,7 +6,7 @@
                  
             </p>
         <p class="ul-icons-p ">
-          <NuxtLink to="/">triboalmaforte.com</NuxtLink> &copy; 2022
+          <nuxt-link to="/">triboalmaforte.com</nuxt-link> &copy; 2022
         </p>
         </div>
     </footer>
