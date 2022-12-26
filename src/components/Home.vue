@@ -3,52 +3,53 @@
   <div class='mainHomeOne'>
       <img src='img/logo.svg'>
       <h1>Tribo Alma Forte</h1>
-      <!--
+      
+        <video autoreplay>
         <source src="img/video.mp4" type="video/mp4">
         </video>
-      -->
+      
   </div>
       <div class='mainHomeTwo'>
-        <nuxt-link to="/acupuntura">
+        <RouterLink to="/acupuntura">
           
             #acupuntura 
           
-        </nuxt-link>
-        <nuxt-link to="/acupuntura">
+        </RouterLink>
+        <RouterLink to="/acupuntura">
           
             #personal 
           
-        </nuxt-link>
-        <nuxt-link to="/acupuntura">
+        </RouterLink>
+        <RouterLink to="/acupuntura">
           
            #funcional 
           
-        </nuxt-link>
-        <nuxt-link to="/acupuntura">
+        </RouterLink>
+        <RouterLink to="/acupuntura">
           
             #krav-maga 
           
-        </nuxt-link>
-        <nuxt-link to="/acupuntura">
+        </RouterLink>
+        <RouterLink to="/acupuntura">
           
            #yoga 
           
-        </nuxt-link>
-        <nuxt-link to="/acupuntura">
+        </RouterLink>
+        <RouterLink to="/acupuntura">
           
             #filosofia 
           
-        </nuxt-link>
-        <nuxt-link to="/acupuntura">
+        </RouterLink>
+        <RouterLink to="/acupuntura">
           
             #psicologia 
           
-        </nuxt-link>
-        <nuxt-link to="/acupuntura">
+        </RouterLink>
+        <RouterLink to="/acupuntura">
           
             #nutrição
           
-        </nuxt-link>
+        </RouterLink>
       </div>
     
       <div class='mainTree'>
@@ -58,9 +59,9 @@
         </a>
           
         
-        <nuxt-link to="/">
+        <RouterLink to="/">
         triboalmaforte.com
-        </nuxt-link>
+        </RouterLink>
           
     
         
